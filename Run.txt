@@ -1,0 +1,23 @@
+ npm install hardhat ethers dotenv "@nomicfoundation/hardhat-toolbox"   "@nomicfoundation/hardhat-ignition"
+
+ npm hardhat init  
+
+ create simple javascript project 
+
+ npx hardhat compile 
+
+ npx hardhat ignition deploy .\ignition\modules\Token.js --network fantomtest 
+
+ fantomtest in the hardhat.config.js
+
+/* 
+networks: {
+    //name 
+    fantomtest: {
+      url: PROVIDER_URL,
+      accounts: [`0x${PRIVATE_KEY}`]
+    }
+  }
+*/
+
+
